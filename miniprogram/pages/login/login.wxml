@@ -1,0 +1,7 @@
+<view class="container">
+  <input placeholder="Username" bindinput="onUsernameInput" />
+  <picker mode="selector" range="['100万以上','50-100万','50万以下']" bindchange="onGroupChange">
+    <view>选择组别：{{group}}</view>
+  </picker>
+  <button bindtap="login">登录</button>
+</view>

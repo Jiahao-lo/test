@@ -1,0 +1,10 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/upload/upload",
+    "pages/leaderboard/leaderboard"
+  ],
+  "window": {
+    "navigationBarTitleText": "Stock Competition"
+  }
+}
