@@ -1,0 +1,5 @@
+<view class="container">
+  <block wx:for="{{list}}" wx:key="index">
+    <view>{{item.rank}} {{item.username}} 当日: {{item.daily}} 总: {{item.total}}</view>
+  </block>
+</view>
